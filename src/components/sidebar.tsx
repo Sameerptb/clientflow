@@ -16,7 +16,7 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { label: 'Overview', href: '/', icon: LayoutDashboard },
   { label: 'Projects', href: '/projects', icon: FolderKanban },
-  { label: 'My Tasks', href: '/tasks', icon: CheckSquare },
+  { label: 'My Tasks', href: '/my-tasks', icon: CheckSquare },
   { label: 'Clients', href: '/clients', icon: Users },
 ];
 
