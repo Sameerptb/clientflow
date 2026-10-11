@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ClientFlow — Project Management Dashboard
 
-## Getting Started
+A modern project management dashboard built with **Next.js, React, TypeScript, and Tailwind CSS**. ClientFlow helps organize projects, track tasks, monitor progress, and view client information through a clean, responsive interface.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**[View ClientFlow Live](https://clientflow-tau-beige.vercel.app/)**
+
+## ✨ Features
+
+- **Dashboard Overview** — View project statistics, project progress, and task summaries.
+- **Project Management** — Create, edit, delete, search, and track projects.
+- **Task Management** — Add, edit, delete, and complete tasks, including due dates.
+- **Projects Page** — Browse and search saved projects.
+- **My Tasks** — View tasks and update their completion status.
+- **Clients Page** — View clients derived from project information.
+- **Local Data Persistence** — Save projects and tasks in browser local storage.
+- **Responsive Interface** — Navigate the application through a sidebar and dashboard layout.
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Frontend:** React
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Storage:** Browser Local Storage
+- **Version Control:** Git and GitHub
+- **Deployment:** Vercel
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js (version 22 recommended for this project)
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Sameerptb/clientflow.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd clientflow
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🧪 Available Scripts
+
+| Command            | Description                          |
+| ------------------ | ------------------------------------ |
+| `npm run dev`      | Start the development server         |
+| `npm run lint`     | Run ESLint checks                    |
+| `npx tsc --noEmit` | Check TypeScript types               |
+| `npm run build`    | Build the application for production |
+
+## 📁 Project Structure
+
+```text
+clientflow/
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── clients/
+│   │   │   └── page.tsx
+│   │   ├── my-tasks/
+│   │   │   └── page.tsx
+│   │   ├── projects/
+│   │   │   └── page.tsx
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       ├── dashboard-header.tsx
+│       ├── projects-table.tsx
+│       ├── sidebar.tsx
+│       └── stat-card.tsx
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💾 Data Storage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ClientFlow currently uses browser local storage to persist project and task data.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Data is stored in the browser rather than a remote database.
+- Saved data is specific to the browser and origin being used.
+- Data is not automatically synchronized between different users or devices.
 
-## Learn More
+## 🔮 Future Improvements
 
-To learn more about Next.js, take a look at the following resources:
+- Integrate a database for persistent, shared data.
+- Add user authentication and protected routes.
+- Improve project and task synchronization across pages.
+- Add automated tests and more comprehensive error handling.
+- Add screenshots and additional project documentation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Sameer Husain Pattambi**
 
-## Deploy on Vercel
+- **GitHub:** [Sameerptb](https://github.com/Sameerptb)
+- **LinkedIn:** [sameerhusainpattambi](https://www.linkedin.com/in/sameerhusainpattambi)
+- **Portfolio:** [sameerptb.vercel.app](https://sameerptb.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with Next.js and TypeScript.
