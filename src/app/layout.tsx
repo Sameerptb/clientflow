@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://clientflow-tau-beige.vercel.app'),
   title: 'ClientFlow | Project Management Dashboard',
   description:
     'Manage projects, track tasks, monitor progress, and organize clients with ClientFlow.',
