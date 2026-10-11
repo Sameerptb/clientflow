@@ -16,6 +16,27 @@ export const metadata: Metadata = {
   title: 'ClientFlow | Project Management Dashboard',
   description:
     'Manage projects, track tasks, monitor progress, and organize clients with ClientFlow.',
+  openGraph: {
+    title: 'ClientFlow | Project Management Dashboard',
+    description: 'Organize projects, track tasks, and manage client information with ClientFlow.',
+    url: 'https://clientflow-tau-beige.vercel.app/',
+    siteName: 'ClientFlow',
+    images: [
+      {
+        url: '/opengraph-image.png',
+        width: 1712,
+        height: 912,
+        alt: 'ClientFlow project management dashboard',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ClientFlow | Project Management Dashboard',
+    description: 'Organize projects, track tasks, and manage client information with ClientFlow.',
+    images: ['/opengraph-image.png'],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
