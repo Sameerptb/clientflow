@@ -6,6 +6,24 @@ A modern project management dashboard built with **Next.js, React, TypeScript, a
 
 **[View ClientFlow Live](https://clientflow-tau-beige.vercel.app/)**
 
+## 📸 Screenshots
+
+### Dashboard Overview
+
+![ClientFlow Dashboard](public/screenshots/dashboard.png)
+
+### Projects
+
+![ClientFlow Projects](public/screenshots/projects.png)
+
+### My Tasks
+
+![ClientFlow My Tasks](public/screenshots/tasks.png)
+
+### Clients
+
+![ClientFlow Clients](public/screenshots/clients.png)
+
 ## ✨ Features
 
 - **Dashboard Overview** — View project statistics, project progress, and task summaries.
@@ -78,6 +96,11 @@ A modern project management dashboard built with **Next.js, React, TypeScript, a
 ```text
 clientflow/
 ├── public/
+│   └── screenshots/
+│       ├── dashboard.png
+│       ├── projects.png
+│       ├── tasks.png
+│       └── clients.png
 ├── src/
 │   ├── app/
 │   │   ├── clients/
@@ -103,7 +126,7 @@ clientflow/
 ClientFlow currently uses browser local storage to persist project and task data.
 
 - Data is stored in the browser rather than a remote database.
-- Saved data is specific to the browser and origin being used.
+- Saved data is specific to the browser and website origin being used.
 - Data is not automatically synchronized between different users or devices.
 
 ## 🔮 Future Improvements
@@ -112,7 +135,7 @@ ClientFlow currently uses browser local storage to persist project and task data
 - Add user authentication and protected routes.
 - Improve project and task synchronization across pages.
 - Add automated tests and more comprehensive error handling.
-- Add screenshots and additional project documentation.
+- Improve accessibility and responsive behavior.
 
 ## 👨‍💻 Author
 
